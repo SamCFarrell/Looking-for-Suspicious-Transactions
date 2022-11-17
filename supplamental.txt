@@ -43,3 +43,8 @@ FROM transaction AS a
 JOIN credit_card AS b on a.card = b.card
 WHERE cardholder_id = 25
 AND date_part('month', a.date) <= 6;
+
+
+SELECT cardholder_id AS cardholder, b.date, b.amount 
+FROM credit_card AS a
+JOIN transaction AS b on a.card = b.card;

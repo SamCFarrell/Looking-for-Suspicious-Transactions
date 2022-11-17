@@ -13,7 +13,7 @@ Define a database model to store the credit card transactions data and create a 
 
 2. [Data Engineering](#Data-Engineering): Create a database schema on PostgreSQL and populate your  database from the CSV files provided.
 
-3. [Data Analysis](#Data-Analysis): Analyze the data to identify possible fraudulent transactions trends data, and develop a report of your observations.
+3. [Data Analysis](#Data-Analysis): Analyze the data to identify possible fraudulent transactions trends data, and report your observations.
 
 ---
 
@@ -49,7 +49,7 @@ After creating the database schema, import the data from the corresponding CSV f
 ### Data Analysis
 #### Part 1:
 
-The CFO of your firm has requested a report to help analyze potential fraudulent transactions. Using your newly created database, generate queries that will discover the information needed to answer the following questions:
+The CFO of your firm has requested you to help analyze potential fraudulent transactions. Using your newly created database, generate queries that will discover the information needed to answer the following questions:
 
 * Some fraudsters hack a credit card by making several small transactions (generally less than $2.00), which are typically ignored by cardholders. 
 

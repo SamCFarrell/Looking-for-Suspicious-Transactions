@@ -19,11 +19,13 @@ Define a database model to store the credit card transactions data and create a 
 
 ## Files
 
-* [card_holder.csv](Data/card_holder.csv)
-* [credit_card.csv](Data/credit_card.csv)
-* [merchant.csv](Data/merchant.csv)
-* [merchant_category.csv](Data/merchant_category.csv)
-* [transaction.csv](Data/transaction.csv)
+* [card_holder.csv](Data/CSV/card_holder.csv)
+* [credit_card.csv](Data/CSV/credit_card.csv)
+* [merchant.csv](Data/CSV/merchant.csv)
+* [merchant_category.csv](Data/CSV/merchant_category.csv)
+* [transaction.csv](Data/CSV/transaction.csv)
+
+---
 
 ## Instructions
 
@@ -75,7 +77,7 @@ The CFO of your firm has requested you to help analyze potential fraudulent tran
 
 #### Part 2:
 
-Your CFO has also requested detailed trends data on specific card holders. Use the [starter notebook](Starter_Files/challenge.ipynb) to query your database and generate visualizations that supply the requested information as follows:      
+Your CFO has also requested detailed trends data on specific card holders. Use the [starter notebook](visual_data_analysis.ipynb) to query your database and generate visualizations that supply the requested information as follows:      
 
 * The two most important customers of the firm may have been hacked. Verify if there are any fraudulent transactions in their history. For privacy reasons, you only know that their cardholder IDs are 2 and 18.
 
@@ -97,7 +99,7 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
 
 Another approach to identifying fraudulent transactions is to look for outliers in the data. Standard deviation or quartiles are often used to detect outliers.
 
-Use the [challenge starter notebook](Starter_Files/challenge.ipynb) to code two Python functions:
+Use the [challenge starter notebook](challenge.ipynb) to code two Python functions:
 
 * One that uses standard deviation to identify anomalies for any cardholder.
 

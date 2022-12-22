@@ -1,4 +1,4 @@
-# Looking for Suspicious Transactions
+# Unit 7 Homework Assignment: Looking for Suspicious Transactions
 
 ## Background
 
@@ -13,19 +13,17 @@ Define a database model to store the credit card transactions data and create a 
 
 2. [Data Engineering](#Data-Engineering): Create a database schema on PostgreSQL and populate your  database from the CSV files provided.
 
-3. [Data Analysis](#Data-Analysis): Analyze the data to identify possible fraudulent transactions trends data, and report your observations.
+3. [Data Analysis](#Data-Analysis): Analyze the data to identify possible fraudulent transactions trends data, and develop a report of your observations.
 
 ---
 
 ## Files
 
-* [card_holder.csv](Data/CSV/card_holder.csv)
-* [credit_card.csv](Data/CSV/credit_card.csv)
-* [merchant.csv](Data/CSV/merchant.csv)
-* [merchant_category.csv](Data/CSV/merchant_category.csv)
-* [transaction.csv](Data/CSV/transaction.csv)
-
----
+* [card_holder.csv](Data/card_holder.csv)
+* [credit_card.csv](Data/credit_card.csv)
+* [merchant.csv](Data/merchant.csv)
+* [merchant_category.csv](Data/merchant_category.csv)
+* [transaction.csv](Data/transaction.csv)
 
 ## Instructions
 
@@ -51,7 +49,7 @@ After creating the database schema, import the data from the corresponding CSV f
 ### Data Analysis
 #### Part 1:
 
-The CFO of your firm has requested you to help analyze potential fraudulent transactions. Using your newly created database, generate queries that will discover the information needed to answer the following questions:
+The CFO of your firm has requested a report to help analyze potential fraudulent transactions. Using your newly created database, generate queries that will discover the information needed to answer the following questions, then create a seperate `Report.md` file to share your findings with the CFO:
 
 * Some fraudsters hack a credit card by making several small transactions (generally less than $2.00), which are typically ignored by cardholders. 
 
@@ -77,7 +75,7 @@ The CFO of your firm has requested you to help analyze potential fraudulent tran
 
 #### Part 2:
 
-Your CFO has also requested detailed trends data on specific card holders. Use the [starter notebook](visual_data_analysis.ipynb) to query your database and generate visualizations that supply the requested information as follows:      
+Your CFO has also requested detailed trends data on specific card holders. Use the [visual data analysis starter notebook](visual_data_analysis.ipynb) to query your database and generate visualizations that supply the requested information as follows, then add your visualizations and observations to your `Markdown Report`:      
 
 * The two most important customers of the firm may have been hacked. Verify if there are any fraudulent transactions in their history. For privacy reasons, you only know that their cardholder IDs are 2 and 18.
 
@@ -112,3 +110,5 @@ For help with outliers detection, read the following articles:
 * [Removing Outliers Using Standard Deviation in Python](https://www.kdnuggets.com/2017/02/removing-outliers-standard-deviation-python.html)
 
 * [How to Use Statistics to Identify Outliers in Data](https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/)
+
+---

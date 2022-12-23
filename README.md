@@ -1,4 +1,4 @@
-# Unit 7 Homework Assignment: Looking for Suspicious Transactions
+# Looking for Suspicious Transactions
 
 ## Background
 
@@ -11,7 +11,7 @@ You are asked to accomplish three main tasks:
 1. [Data Modeling](#Data-Modeling):
 Define a database model to store the credit card transactions data and create a new PostgreSQL database using your model.
 
-2. [Data Engineering](#Data-Engineering): Create a database schema on PostgreSQL and populate your  database from the CSV files provided.
+2. [Data Engineering](#Data-Engineering): Create a database schema on PostgreSQL and populate your database from the CSV files provided.
 
 3. [Data Analysis](#Data-Analysis): Analyze the data to identify possible fraudulent transactions trends data, and develop a report of your observations.
 

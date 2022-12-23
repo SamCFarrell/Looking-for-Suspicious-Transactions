@@ -55,7 +55,7 @@ From this, we can see that The biggest differences between the two cardholders a
 
 This difference does suggest fraud as the latter is so anomalous compared to normal spending habits. It is, therefore, more likely that cardholder 18 was hacked.
 
-## Data Analysis Question 2
+## Question 2
 ```
 The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. Again, for privacy reasons, you know only that the cardholder ID in question is 25.
 ```
